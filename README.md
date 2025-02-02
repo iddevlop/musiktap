@@ -58,7 +58,7 @@ Buka tata letak tambah gadget pilih HTML/JAVASCRIPT Beri judul MusikTap isi kont
 
 <script type="text/javascript">
     const myhost = "1", mymusic = "https://iddevlop.github.io/musiktap/music.json"; // ubah ini
-    if (window.location.href == "https://id-devlop.blogspot.com/p/musik-tap.html") { // Ini untuk deteksi kemungkinan jika url sama dengan halaman
+    if (window.location.href == "https://id-devlop.blogspot.com/p/musik-tap.html" || window.location.href == "https://id-devlop.blogspot.com/p/musik-tap.html?m=1") { // Ini untuk deteksi kemungkinan jika url sama dengan halaman
         document.getElementById("kokoGScript").setAttribute("src", "https://kodekomen.web.app/assets/game/musiktap/script.js"); // Maka ini skrip yang di panggil
         document.getElementById("kokoWScript").setAttribute("src", "https://kodekomen.web.app/assets/js/watermark.js");
     }
