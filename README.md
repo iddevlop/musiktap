@@ -11,9 +11,60 @@ Permainan ini terinspirasi dari para musisi, dengan kata lain kami mengapresiasi
 
 # Guna Perbaikan
 Pastikan anda sudah menghubungi mentor. Edit bagian ini dibagian html.
+
+*HOSTING*
+
+Klon project ini dan sesuaikan index.html (Jangan ada yang dihapus).
+
 ``` js
 const myhost = "1"; // ubah ini
+const mymusic = "music.json" // ini adalah path dari musik json anda
 ```
+
+*BLOGGER*
+
+Buat halaman baru mis. Musik Tap lalu pilih tampilan html salin kode dibawah
+``` html
+<main id="main"></main>
+```
+
+Buka tata letak tambah gadget pilih HTML/JAVASCRIPT Beri judul MusikTap isi konten dengan kode dibawah
+``` html
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+<style>
+#main {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    z-index: 1000;
+}
+</style>
+<script src="https://kodekomen.web.app/assets/js/firebase.js"></script>
+<script src="https://kodekomen.web.app/assets/js/config.js"></script>
+
+<div id="watermark-container"></div>
+<script id="kokoGScript"></script>
+<script id="myscript"></script>
+<script id="kokoWScript"></script>
+<script id="mywscript"></script>
+
+<script type="text/javascript">
+    const myhost = "1", mymusic = "https://iddevlop.github.io/musiktap/music.json"; // ubah ini
+    if (window.location.href == "https://id-devlop.blogspot.com/p/musik-tap.html") { // Ini untuk deteksi kemungkinan jika url sama dengan halaman
+        document.getElementById("kokoGScript").setAttribute("src", "https://kodekomen.web.app/assets/game/musiktap/script.js"); // Maka ini skrip yang di panggil
+        document.getElementById("kokoWScript").setAttribute("src", "https://kodekomen.web.app/assets/js/watermark.js");
+    }
+</script>
+```
+Ingat untuk menghubungi mentor terlebih dahulu.
 
 # Mentor Kode
 Kode ini menggunakan integrasi antar server, sebagian data kami simpan dengan API, kami akan menyimpan domain anda jika anda menginginkannya.
