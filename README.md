@@ -64,6 +64,7 @@ Buka tata letak tambah gadget pilih HTML/JAVASCRIPT Beri judul MusikTap isi kont
     }
 </script>
 ```
+Oh iya untuk musik terserah anda ya mau unggah di github anda atau langsung hosting, perbaiki saja json dan isi path playlist mp3.
 Ingat untuk menghubungi mentor terlebih dahulu.
 
 # Mentor Kode
