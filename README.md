@@ -25,7 +25,7 @@ const mymusic = "music.json" // ini adalah path dari musik json anda
 
 Buat halaman baru mis. Musik Tap lalu pilih tampilan html salin kode dibawah
 ``` html
-<main id="main"><div id="watermark-container"></div></main>
+<main id="main"></main>
 ```
 
 Buka tata letak tambah gadget pilih HTML/JAVASCRIPT Beri judul MusikTap isi konten dengan kode dibawah, pastikan widget berada di blah sisi atas.
