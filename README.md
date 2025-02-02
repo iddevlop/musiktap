@@ -28,7 +28,7 @@ Buat halaman baru mis. Musik Tap lalu pilih tampilan html salin kode dibawah
 <main id="main"></main>
 ```
 
-Buka tata letak tambah gadget pilih HTML/JAVASCRIPT Beri judul MusikTap isi konten dengan kode dibawah
+Buka tata letak tambah gadget pilih HTML/JAVASCRIPT Beri judul MusikTap isi konten dengan kode dibawah, pastikan widget berada di blah sisi atas.
 ``` html
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
 <style>
